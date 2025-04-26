@@ -20,7 +20,7 @@ class CustomAppbar extends StackedView<CustomAppbarModel> {
         child: Padding(
           padding: const EdgeInsets.only(top: 12, left: 21, right: 21, bottom: 12),
           child: Row(
-            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            mainAxisAlignment: MainAxisAlignment.end,
             children: [
               Row(
                 mainAxisSize: MainAxisSize.min,
