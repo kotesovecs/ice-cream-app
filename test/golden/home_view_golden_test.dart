@@ -12,6 +12,7 @@ void main() {
 
     // Set device pixel ratio and size
     await tester.binding.setSurfaceSize(const Size(393, 852));
+    // ignore: deprecated_member_use
     tester.binding.window.devicePixelRatioTestValue = 1.0;
 
     await tester.pumpWidget(

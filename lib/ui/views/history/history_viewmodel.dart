@@ -1,6 +1,4 @@
 import 'package:ZmrzlinaApi/api.dart';
-import 'package:firebase_messaging/firebase_messaging.dart';
-import 'package:flutter/material.dart';
 import 'package:stacked/stacked.dart';
 
 class HistoryViewModel extends FutureViewModel {
